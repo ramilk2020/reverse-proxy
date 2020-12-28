@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: ramilk2021/simple-reverse-proxy
+      - image: ramilk2021/reverse-proxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
